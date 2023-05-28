@@ -11,7 +11,7 @@ function sorteia(n) {
     return Math.round(Math.random() * n);
 }
 
-var sorteiaAteEsseNumero = parseInt(prompt("Quer sortear até qual número?"));
+var sorteiaAteEsseNumero = parseInt(prompt("Gostaria de sortear até qual número?"));
 console.log(sorteiaAteEsseNumero);
 
 var numeroSorteado = sorteia(sorteiaAteEsseNumero);
